@@ -27,3 +27,7 @@ print(f"Alien original color: {alien_0['color']}")
 
 alien_0['color'] = 'yellow'
 print(f"Alien new color: {alien_0['color']}")
+
+alien_0 = {'color': 'green','points':5}
+del alien_0['points']
+print(alien_0)
