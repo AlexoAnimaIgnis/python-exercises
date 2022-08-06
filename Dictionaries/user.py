@@ -7,3 +7,6 @@ user_0 = {
 for key, value in user_0.items():
     print(f"\nKey: {key}")
     print(f"\nValue: {value}")
+
+for key in user_0.keys():
+    print(key.title())
