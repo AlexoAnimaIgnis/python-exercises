@@ -33,3 +33,13 @@ print(test_pop)
 print(popped_motorcycle)
 
 # DEL vs POP. Use pop() when you need to do something with the removed item.
+
+
+# Removing item by vallue
+# Sometimes, you dont know the position of the value you want to remove from a list. 
+# If you only know the value of the item, you can use the remove() method
+
+test_remove = ['honda','yamaha','suzuki', 'ducati']
+print(test_remove)
+test_remove.remove('ducati')
+print(test_remove)
