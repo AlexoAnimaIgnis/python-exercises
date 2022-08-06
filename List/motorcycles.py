@@ -19,3 +19,17 @@ test_delete = ['honda','yamaha','suzuki']
 print(test_delete)
 del test_delete[0]
 print(test_delete)
+
+
+# Removing item using pop() removes the last item in a list but it lets you work
+# with that item after removing it.
+
+# note: can also pass index to remove item from any position
+
+test_pop = ['honda','yamaha','suzuki']
+print(test_pop)
+popped_motorcycle = test_pop.pop()
+print(test_pop)
+print(popped_motorcycle)
+
+# DEL vs POP. Use pop() when you need to do something with the removed item.
