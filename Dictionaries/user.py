@@ -10,3 +10,6 @@ for key, value in user_0.items():
 
 for key in user_0.keys():
     print(key.title())
+
+for value in user_0.values():
+    print(value.title())
